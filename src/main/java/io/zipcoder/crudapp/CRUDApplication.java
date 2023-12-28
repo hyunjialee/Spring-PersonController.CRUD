@@ -1,5 +1,6 @@
 package io.zipcoder.crudapp;
 
+import io.zipcoder.crudapp.model.Person;
 import org.h2.server.web.WebServlet;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,6 +13,7 @@ public class CRUDApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CRUDApplication.class, args);
 	}
+
 
 	@Bean
 	ServletRegistrationBean h2servletRegistration(){
